@@ -5,68 +5,88 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Is this the Krusty Krab...no it's Patrick!</title>
+    <link rel="stylesheet" href="style.css">
 </head>
-<body>
-    <h1>Hi! I'm Patrick</h1>
-    <img src="./BYO_Pics/Patrick_pic.jpg" alt="Patrick and his wife">
-    <h2>I'm making this site so you can learn a few facts about me!</h2>
-    <p>I live in Keystone Heights, Florida. It feels like summer 8 months out of the year, and sweat is your friend. I'm married, and my wife's name is Debby. We have two dogs named Ham and Cheese. We also have two cats name Turd and Heck. Our favorite hobby is traveling, and we will talk more about that later!</p>
-    <p>Here's a list of some of my favorite things to do!</p>
-    <ul>
-        <li>Watch football</li>
-        <li>Watch Formula 1</li>
-        <li>Travel</li>
-        <li>Play with my dogs</li>
-    </ul>
-    <img src="./BYO_Pics/download.png" alt="Steeler's logo">
-    <img src="./BYO_Pics/f1_pic.jpg" alt="Mercedes W13 F1 car">
-    <h2>Travel!</h2>
-    <p>When we have the time we love to travel. The first country I travelled to outside of the United States was Ireland. Ireland is beautiful, and my favorite place that we visited was the Cliff's of Moher</p>
-    <img src="./BYO_Pics/20170330_112920.jpg" alt="Cliffs of Moher">
-    <h3>I also have a few siblings!</h3>
-    <table>
-        <tr>
-            <th>Name</th>
-            <th>Relation</th>
-        </tr>
-        <tr>
-            <td>Tesla</td>
-            <td>Sister</td>
-        </tr>
-        <tr>
-            <td>Douglas</td>
-            <td>Brother</td>
-        </tr>
-        <tr>
-            <td>Hannah</td>
-            <td>Sister</td>
-        </tr>
-    </table>
-    <h2>Learn more about me on my social media</h2>
-    <a href="https://www.facebook.com/pat.purington/">Facebook</a>
-    <br>
-    <a href="https://www.linkedin.com/in/patrick-purington-1601a1221/">LinkedIn</a> 
+    <body>
+        <div id="topParagraph">
+        <h1 id= "h1">Hi! I'm Patrick</h1>
+        <img id= "img1" src="./BYO_Pics/Patrick_pic.jpg" alt="Patrick and his wife">
+        </div>
+        <div id="space"></div>
+        <div id="middlePar">
+        <h2 id="factsAboutMe">I'm making this site so you can learn a few facts about me!</h2>
+        <p id="p1">I live in Keystone Heights, Florida. It feels like summer 8 months out of the year, and sweat is your friend. I'm married, and my wife's name is Debby. We have two dogs named Ham and Cheese. We also have two cats name Turd and Heck. Our favorite hobby is traveling, and we will talk more about that later!</p>
+        <p id="p2">Here's a list of some of my favorite things to do!</p>
+        <ol id="favoriteList">
+            <li>Watch football</li>
+            <li>Watch Formula 1</li>
+            <li>Travel</li>
+            <li>Play with my dogs</li>
+        </ol>
+        <div id="picColumn">
+        <table>
+            <th><img id= "img2" src="./BYO_Pics/download.png" alt="Steeler's logo"></th>    
+            <th><img id= "img3" src="./BYO_Pics/f1_pic.jpg" alt="Mercedes W13 F1 car"></th>
+        </table>
+        </div>
+        </div> 
+        <div id="space"></div>
+        <div id="travelPar">
+        <h2 id=" travel heading">Travel!</h2>
+        <p id="travelP">When we have the time we love to travel. The first country I travelled to outside of the United States was Ireland. Ireland is beautiful, and my favorite place that we visited was the Cliff's of Moher</p>
+        <img id= "img4" src="./BYO_Pics/20170330_112920.jpg" alt="Cliffs of Moher">
+        </div>  
 
-    <h4>Send me a message here!</h4>
-    <form>
-        <label for="">Your Name</label>
+        <h3 id= "h3">I also have a few siblings!</h3>
+        <div class="table">
+        <table>
+            <tr>
+                <th class="th">Name</th>
+                <th class="th">Relation</th>
+            </tr>
+            <tr>
+                <td class="td">Tesla</td>
+                <td class="td">Sister</td>
+            </tr>
+            <tr>
+                <td class="doug">Douglas</td>
+                <td class="doug">Brother</td>
+            </tr>
+            <tr>
+                <td class="td">Hannah</td>
+                <td class="td">Sister</td>
+            </tr>
+        </table>
+        </div>
+        <div id="space"></div>
+        <div class="Social"
+        <h2>Learn more about me on my social media</h2>
         <br>
-        <input type="text">
+        <a href="https://www.facebook.com/pat.purington/">Facebook</a>
         <br>
-        <label for="">Your Email</label>
-        <br>
-        <input type="email">
-        <br>
-        <label for="">Your Message</label>
-        <br>
-        <textarea cols="30" rows="10"></textarea>
-        <br>
-        <label for="">Subscribe to my soundclound?</label>
-        <input type="checkbox">
-        <br>
-        <button>Submit</button>
-    </form>
-    <p>You can also email me here</p>
-    <a href="mailto:papurington@gmail.com">To Email Click Here</a>
-</body>
+        <a href="https://www.linkedin.com/in/patrick-purington-1601a1221/">LinkedIn</a> 
+
+        <h4>Send me a message here!</h4>
+        <form>
+            <label for="">Your Name</label>
+            <br>
+            <input type="text">
+            <br>
+            <label for="">Your Email</label>
+            <br>
+            <input type="email">
+            <br>
+            <label for="">Your Message</label>
+            <br>
+            <textarea cols="30" rows="10"></textarea>
+            <br>
+            <label for="">Subscribe to my soundclound?</label>
+            <input type="checkbox">
+            <br>
+            <button>Submit</button>
+        </form>
+        <p>You can also email me here:</p>
+        <a href="mailto:papurington@gmail.com"><img id= "img5" src="./BYO_Pics/google.png" alt=""></a>
+        </div>
+    </body>
 </html>
