@@ -116,3 +116,15 @@ body {
 .Social {
     text-align: center;
 }
+
+.th {
+    background-color: darkgray;
+}
+
+.td {
+    background-color: blueviolet;
+}
+
+.doug {
+    background-color: aqua;
+}
