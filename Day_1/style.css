@@ -1,0 +1,130 @@
+body {
+    background-color: beige;
+}
+
+#topParagraph {
+    border-style: solid;
+    border-radius: 30px;
+    display: block;
+    padding-bottom: 50px;
+}
+#h1 {
+    text-align: center;
+    color:darkolivegreen
+}
+
+#img1 {
+    height: 300px;
+    width: 400px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width:50%;
+}
+
+#img2 {
+    height: 150px;
+    width: 100px;
+
+}
+
+#img3 {
+    height: 300px;
+    width: 400px;
+
+}
+
+#img4 {
+    height: 300px;
+    width: 400px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width:50%;
+}
+
+#img5 {
+    height: 125px;
+    width: 100px;
+    display: left;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#picColumn {
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 335px;
+    ;
+}
+
+#middlePar {
+    border-style: solid;
+    border-radius: 30px;
+    display: block;
+    padding-bottom: 50px;
+}
+
+#space {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#factsAboutMe {
+    text-align: center;
+    color:darkolivegreen
+}
+
+#p2 {
+    text-align: center;
+    color: black;
+}
+
+#p1, #h3 {
+    text-align: center;
+    color: black;
+}
+
+#favoriteList {
+    
+    list-style-position: inside;
+    text-align: center;
+}
+
+#travelPar {
+    border-style: solid;
+    border-radius: 30px;
+    display: block;
+    padding-bottom: 50px;
+    text-align: center;
+    color: darkolivegreen;
+}
+
+#travelP {
+    color:black;
+}
+
+.table {
+    border: 1px solid;
+    text-align: center;
+    margin-left: 550px;
+    margin-right: 550px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.Social {
+    text-align: center;
+}
+
+.th {
+    background-color: darkgray;
+}
+
+.td {
+    background-color: blueviolet;
+}
+
+.doug {
+    background-color: aqua;
+}

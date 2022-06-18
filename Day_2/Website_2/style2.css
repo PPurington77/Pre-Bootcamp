@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: slategray;
+    max-width: 1300px;
+}
+#header {
+    background-color: dodgerblue;
+    height:150px;
+    outline: solid 2px black;
+    margin:10px;
+}
+#Patrick {
+    padding:10px;
+    color: white;
+    text-decoration: underline white;
+    margin:10px;
+    text-align: center;
+}
+#come {
+    color: coral;
+    text-decoration: overline underline white;
+    text-align: center;
+    padding: 10px;
+}
+#sideColumn {
+    width: 300px;
+    height: 500px;
+    background-color: white;
+    margin: 10px;
+    text-align: center;
+    display: inline-block;
+    vertical-align: top;
+}
+#hobby {
+    padding: 5px;
+    margin:10px;
+    outline: dashed coral;
+}
+#places {
+    padding: 5px;
+    margin:10px;
+    outline: dashed dodgerblue;
+}
+li {
+    padding:2px;
+    margin: 4px;
+    outline:solid coral;
+    list-style-type: none;
+}
+#upperBox {
+    width: 919px;
+    height: 500px;
+    background-color: coral;
+    display: inline-block;
+    margin: 10px;
+}
+img {
+    height:100%;
+    width: 100%;
+    background-size: contain;
+}
+#fav_sport {
+    text-align: right;
+    display: inline-block;
+    width: 200px;
+    vertical-align: top;
+}
+.extraBox {
+    width: 200px;
+    height: 175px;
+    display: inline-block;
+    background-color: white;
+    margin:10px;
+    margin-left: 65px;
+    padding:5px;
+}
+#middlebox {
+    width: 750px;
+    height: 280px;
+    background-color: dodgerblue;
+    display: inline-block;
+    margin-left: 85px;
+}
+.sports {
+    text-align: center;
+    outline: solid white;
+    margin: 5px;
+    padding: 5px;
+}
+.sportpix {
+    width: 200px;
+    height: 175px;
+    display: inline-block;
+    background-color: white;
+    margin-top:30px;
+    margin-left: 110px;
+    padding:5px;
+}
+
+.anotherBox {
+    width: 400px;
+    height: 175px;
+    display: inline-block;
+    background-color: coral;
+    vertical-align: top;
+    margin: 10px;
+    margin-left:130px;
+
+}
+.mediaSoc{
+    display:block;
+    text-decoration: none;
+    color:white;
+    outline: dashed dodgerblue;
+    padding:10px;
+    margin:10px;
+    text-align: center;
+}
+#img2 {
+    width: 100px;
+    height: 100px;
+    padding-top:10px;
+    padding-left: 150px;
+}
+
+.bottomBox {
+    height:200px;
+    background-color: white;
+    margin:10px;
+}

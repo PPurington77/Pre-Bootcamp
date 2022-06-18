@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#header {
+    height:55px;
+    background-color: black;
+    display: flex;
+    justify-content: space-around; 
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;   
+    padding: 10px;
+}
+
+#logo_right {
+    margin-top:0px;
+}
+
+#header_quote {
+    background: black;
+    color: whitesmoke;
+    height: 20px;
+    margin-right: 10px;
+    margin-left: 10px;
+    text-align: center;
+    padding:20px;
+}
+
+#header_quote > h2 {
+    margin-top: 10px;
+}
+
+#nav_bar {
+    background-color: #00A29C;
+    margin-right: 10px;
+    margin-left: 10px;
+    height:30px;
+    padding-top: 10px;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-around;
+    font-size: larger;
+}
+
+a {
+    color: whitesmoke;
+    text-decoration: none;
+    
+}
+
+a:hover {
+    color:black;
+}
+
+#driver_head {
+    background-color: black;
+    color: whitesmoke;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: center;
+    padding-top: 10px;
+}
+
+#driver_pics {
+    background-color: black;
+    height: 300px;
+    margin-left: 10px;
+    margin-right: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+
+#d_names {
+    background-color: #00A29C;
+    height: 20px;
+    display: flex;
+    justify-content: space-around;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 10px;
+}
+
+#d_names > h3 {
+    margin-left: 80px
+}
+
+#race_car {
+    background-color: black;
+    height: 300px;
+    margin-left: 10px;
+    margin-right: 10px;
+    display: flex;
+    color: whitesmoke;
+    padding: 10px;
+}
+
+#race {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#race > img {
+    height: 250px;
+    width: 100%
+}
+
+#w13 {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#w13 > img {
+    height: 125px;
+    margin-top: 50px;
+    width: 100%;
+}
+
+#w13 > p {
+    text-align: center;
+    margin-top:75px;
+}
